@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CPIT-406-Lab5</title>
+    <title>CPIT-405-Lab5</title>
     <script src="./script.js"></script>
 </head>
+
 <body>
+    <h2>Click This button to get Student name and ID!</h2>
+    <button onclick="DisplayAlert()">Student name and ID</button>
+
+
     <h2>Check the console log to see the answer to factorial 4!</h2>
-    <h2>Or type f(n) and put any number instad of n to get its factorial!</h2>
+    <h2>Or type f(n) and put any number instad of n to get its factorial in the console</h2>
+    <br>
+    <h2>Or Enter the number here to get it as an alert</h2>
+    <h5>Please dont choose negative numbers</h5>
+    <input type="number" id="num" placeholder="Choose a number">
+    <button onclick="FactorialBtn()">Factorial</button>
+    <br>
 
     <br>
-    <h2>Enter Your name and Date Of Birth</h2>
-    <input type="text" placeholder="first and last name" id="FnameLname">
+    <h2>Enter Your Date Of Birth to get your age!</h2>
     <input type="date" name="" id="date">
-    <button onclick="Check()">Calculate</button>
-    
-    
+    <button onclick="getAge()">Calculate</button>
+
 </body>
+
 </html>
